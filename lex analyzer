@@ -4,9 +4,6 @@
 #include <ctype.h>
 
 int isKeyword(char buffer[]) {
-    if (strcmp(buffer, "printf") == 0 || strcmp(buffer, "scanf") == 0) {
-        return 2;
-    }
     char keywords[32][10] = {
         "auto", "break", "case", "char", "const", "continue", "default", "do",
         "double", "else", "enum", "extern", "float", "for", "goto", "if",
