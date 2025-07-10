@@ -118,3 +118,13 @@ int main() {
     fclose(fp);
     return 0;
 }
+
+/* new.txt
+    //Hello world!
+for ( i = 0 ; i < 5 ; i++ ) {                                                                                                                 
+int y;
+printf
+2.5
+}
+10
+    */
